@@ -45,6 +45,7 @@
         "intersection-observer": "^0.7.0",
         "nodemon": "^1.19.4",
         "rimraf": "^3.0.2",
+        "swiper": "^6.4.5",
         "terser": "^4.6.3",
         "webpack": "^4.41.6",
         "webpack-cli": "^3.3.11",

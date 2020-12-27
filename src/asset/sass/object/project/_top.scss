@@ -1,12 +1,28 @@
 .p-top {
     &__mv {
         width: 100%;
-        height: calc(100vh - 80px);
+        height: calc(95vh - 80px);
         margin-top: 80px;
-        background-image: url(/asset/image/mv.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+
+        &__item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        img {
+            min-width: 100%;
+            width: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            @include tab-layout() {
+                height: 100%;
+            }
+        }
     }
 
     &__container {

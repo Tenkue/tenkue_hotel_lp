@@ -3,8 +3,9 @@
     <head>
 
         <%- include('./_includes/_common.ejs') %> 
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
-        <title>Tenkue App</title>
+        <title>Tenkue Hotel</title>
 
     </head>
 </html>
@@ -13,7 +14,22 @@
         <%- include('./_includes/_header') %>
 
         <main>
-            <article class="p-top__mv"></article>
+            <article class="swiper-container p-top__mv">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide p-top__mv__item">
+                        <img src="/asset/image/mv_01.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide p-top__mv__item">
+                        <img src="/asset/image/mv_02.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide p-top__mv__item">
+                        <img src="/asset/image/mv_03.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide p-top__mv__item">
+                        <img src="/asset/image/mv_04.jpg" alt="">
+                    </div>
+                </div>
+            </article>
             <article class="p-top__container">
                 <div class="p-top__inner l-content-wrap-default">
                     <h2 class="p-top__title">concept</h2>
