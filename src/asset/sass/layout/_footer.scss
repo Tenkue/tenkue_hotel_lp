@@ -63,6 +63,10 @@
         &:not(:first-child) {
             margin-left: 2em;
 
+            @include tab-layout() {
+                margin-left: 1.5em;
+            }
+
             @include sp-layout() {
                 margin-left: 0;
             }
