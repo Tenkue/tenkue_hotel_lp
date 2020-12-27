@@ -60,4 +60,32 @@
             margin-bottom: 30px;
         }
     }
+
+    &__detailButton {
+        margin: 0 auto;
+        padding: 0.7em 3em;
+        display: block;
+        outline: none;
+        color: $color-light;
+        background-color: $color-primary;
+        cursor: pointer;
+        appearance: none;
+        border: none;
+        position: relative;
+        @include font-size(14);
+
+        &::after {
+            content: '';
+            width: 0.8em;
+            height: 0.8em;
+            position: absolute;
+            top: 48%;
+            right: 3%;
+            transform: translateY(-50%);
+            background-image: url(/asset/image/icon_arrow_right.svg);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
 }
