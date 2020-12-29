@@ -1,7 +1,7 @@
 .p-top {
     &__mv {
         width: 100%;
-        height: calc(100vh - 80px);
+        height: calc(70vh - 80px);
         margin-top: 80px;
         background-image: url(/asset/image/mv.jpg);
         background-size: cover;
@@ -46,6 +46,7 @@
         margin-top: 30px;
         display: flex;
         justify-content: space-between;
+        align-items: flex-start;
 
         & img {
             width: 23%;
